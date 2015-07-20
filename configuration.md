@@ -4,6 +4,8 @@
 
 ## Multi-Environment Configs
 
+`craft/config/general.php`:
+
 ```php
 return array(
     'omitScriptNameInUrls' => true,
@@ -58,5 +60,29 @@ return array(
     '.com' => array(
         'cooldownDuration' => 0,
     )
+);
+```
+
+### 多環境的資料庫設定
+
+`craft/confgi/db.php`:
+
+```php
+return array(
+    '*' => array(
+        'tablePrefix' => 'craft',
+    ),
+    '.dev' => array(
+        'server' => 'localhost',
+        'user' => 'root',
+        'password' => 'letmein',
+        'database' => 'buildwithcraft',
+    ),
+    '.com' => array(
+        'server' => 'localhost',
+        'user' => 'av12345',
+        'password' => '$uP3r$3jp3t',
+        'database' => 'av12345-buildwithcraft',
+    ),
 );
 ```
