@@ -43,7 +43,7 @@ return array(
 
 Craft 將會根據 `$_SERVER['SERVER_NAME']` 的值來決定該讀取哪一個設定環境。
 
-> 你可以改變定義在 `index.php` 的 `CRAFT_ENVIRONMENT` 的值來改變設定環境
+> 你可以修改定義在 `index.php` 的 `CRAFT_ENVIRONMENT` 值來改變設定環境
 
 因為 Craft 是用局部比對的方式來判斷網域，所以你可以用 Top-Level Domain 作為判斷依據：
 
