@@ -86,3 +86,33 @@ return array(
     ),
 );
 ```
+
+### 環境自定義變數
+
+```php
+return array(
+    '*' => array(
+        // ...
+    ),
+
+    'example.dev' => array(
+        // ...
+
+        'environmentVariables' => array(
+            'basePath' => '/users/brandon/Sites/example.dev/public/',
+            'baseUrl'  => 'http://example.dev/',
+        )
+    ),
+
+    'example.com' => array(
+        // ...
+
+        'environmentVariables' => array(
+            'basePath' => '/storage/av12345/www/public_html/',
+            'baseUrl'  => 'http://example.com/',
+        )
+    )
+);
+```
+
+![environment variables](http://buildwithcraft.com/assets/images/docs/_527xAUTO_crop_center-center/environment-variables.2x.png)
