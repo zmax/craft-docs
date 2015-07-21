@@ -2,6 +2,9 @@
 
 ## General Config Settings
 
+可參考預設的設定與說明：
+`craft/core/app/etc/config/defaults/general.php`
+
 ## Multi-Environment Configs
 
 `craft/config/general.php`:
