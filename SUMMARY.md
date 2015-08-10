@@ -6,4 +6,5 @@
    * [Introduction](plugin/introduction.md)
    * [Plugin 設定](plugin/settings.md)
 * [craft.assets 使用速查表](craftassets_cheat_sheet.md)
+* utils
 
