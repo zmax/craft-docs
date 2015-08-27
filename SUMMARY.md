@@ -9,4 +9,5 @@
 * [Utils](utils.md)
 * [Articles](articles.md)
 * [Issues](issues.md)
+* Plugins
 
